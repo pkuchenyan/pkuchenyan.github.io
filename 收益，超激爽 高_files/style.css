@@ -1,0 +1,95 @@
+/*reset aaaa*/
+/*icp*/
+.txt_icp{color:#fff;font-size:12px;margin:0;/*position:absolute;bottom:0;*/text-align:center; width:100%}
+body{background-color:#000;font-size:12px;margin:0}
+td img{display:block}
+input{width:150px;height:16px}
+html, body{height: 100%; }
+
+.clearfix:after{content:"\200B";height:0;display:block;clear:both}
+.clearfix2{zoom:1;overflow:hidden}
+.qp #main{width:auto;margin:0 auto}
+.qp #show{position:absolute;left:50%;padding-left:20px;width:480px;height:400px}
+.qp #tr_olduser_notice{display:none;color:red;padding-left:45px}
+.qp #register_form{width:auto}
+.fl #main{width:auto;margin:0 auto}
+.pp #register_form{width:480px}
+.pp #tr_olduser_notice{display:none;color:red;padding-left:45px}
+.pp #main{width:1024px;margin:0 auto}
+.pp #show{position:relative;width:480px;height:400px}
+.pp #flash{position:absolute}
+#submitbtn,#submitbtnqq{margin-left:100px;width:160px;height:50px}
+.normal{padding-left:15px;color:#000}
+.error{padding-left:15px;color:red}
+#show_header{width:100%;height:35px;font-size:18px;font-weight:700;line-height:23px}
+#show_header li{margin:0;padding:0;width:210px;text-align:center;cursor:pointer;height:32px;list-style:none}
+#show_header #current1{float:left;background:url(/flash_style/images/reg_2.jpg) no-repeat scroll 0 0 transparent}
+#show_header #current2{float:left;margin-left:3px;background:url(/flash_style/images/reg_3.jpg) no-repeat scroll 0 0 transparent}
+.slshow{padding-left:20px}
+#validation{background-position:-179px -10px;width:399px;height:261px;display:none;position:absolute;z-index:100;overflow:hidden;font-family:"Microsoft Yahei";left:50%;margin-left:-200px}
+.val-pop-close{background-position:-13px -140px;width:18px;height:16px;position:absolute;right:13px;top:12px;cursor:pointer}
+#validation_title{font-size:16px;color:#fff;text-align:center;margin:34px auto 0}
+.validation-cont{overflow:hidden;margin:40px 0 0 65px}
+.validation-cont span{float:left}
+.validation-cont img{display:block;width:128px;height:50px;cursor:pointer}
+.validation-cont em{font-size:12px;font-style:normal;color:#fff;display:block;text-align:center;line-height:24px}
+.validation-cont input{display:block;width:113px;height:27px;box-shadow:0 0 3px 1px #333;border:1px solid #444;margin:1px 0 0 0;padding:0 5px;background-color:#616161;color:#fff;outline:0;line-height:27px}
+.validation-cont .v-c-sp1{margin-left:20px}
+.validation-cont .v-c-sp1 em{text-align:left;line-height:22px}
+.validation-submit{clear:both;overflow:hidden}
+.validation-submit a{background-position:-13px -68px;width:137px;height:41px;float:left;margin:25px 0 0 128px;text-indent:-10000px}
+.validation-submit a:hover{background-position:-13px -10px}
+
+
+/* 当flash禁止掉显示出来的注册框 */
+#box_register{width:533px;height:415px;background:url(/flash_style/images/bg_com_reg.jpg) no-repeat;position:absolute;top:140px;left:50%;margin-left:-266px}
+.p_inp_wrap{position:relative;height:32px;width:320px;margin:0 auto}
+.p_inp_wrap .label{display:inline-block;width:114px;height:33px;background:url(/flash_style/images/sprite.png) no-repeat -186px 0;font:12px/33px '宋体';text-align:center;color:#fff;position:absolute;left:0;z-index:2}
+.p_inp_wrap input.inp{width:180px;height:29px;font:12px/29px '宋体';background:#fff;padding:0 5px;position:absolute;left:110px;border:1px solid #d2d2d2;top:1px;padding-right:25px}
+.reg_wrap{margin-top:64px}
+.reg_wrap .error,.reg_wrap .normal,.reg_wrap .p_infos{padding:0;font:12px/2 '宋体';margin:0 0 0 218px;height:24px}
+#box_register #submitbtn{display:block;width:186px;height:53px;background:url(/flash_style/images/sprite.png) no-repeat 0 0;margin:0 auto;border:none;text-indent:-999px;cursor:pointer}
+.p_inp_wrap_last{height:60px}
+.p_inp_wrap_last .error,.p_inp_wrap_last .normal,.p_inp_wrap_last .p_infos{margin:0;padding-top:34px;margin-left:112px}
+#box_register .p_agree{margin-left:58px}
+.btn_re_register{display:block;font:14px/24px '宋体';margin-left:363px;color:#000}
+#new_reg_wrap{width:100%;height:100px;background:url(/flash_style/images/bg_filter_cover.png);display:none;position:fixed;z-index:2}
+#box_register .icon_inp.user{display:inline-block;width:16px;height:12px;background:url(/flash_style/images/sprite.png) no-repeat -313px 0;right:5px;top:10px;position:absolute}
+#box_register .icon_inp.pwd{display:inline-block;width:13px;height:19px;background:url(/flash_style/images/sprite.png) no-repeat -300px 0;right:5px;top:10px;position:absolute}
+#new_iframe_warp{position:absolute;left:50%;top:50%}
+#iframe_warp{width:100%;height:100%;background:url(/flash_style/images/bg_filter_cover.png);position:absolute;left:0;top:0;z-index:10}
+#game_box{position:fixed;right:0;bottom:0;z-index:999999}
+.dl_gbox{width:533px;height:357px;position:absolute;top:170px;left:50%;margin-left:-266px;background:url(/flash_style/images/dl_box.jpg) no-repeat}
+.dl_gbox .a_dl_gbox{display:block;width:533px;height:357px}
+.dl_gbox .txt_chk{position:absolute;bottom:15px;text-align:center;width:100%}
+.dl_gbox .txt_chk a{color:#000}
+.dl_gbox .txt_chk input{width:15px}
+.oImgWrap{position:absolute;top:0;left:0;width:100%;text-align:center;margin:0;padding:0}
+#main.addbg{position:relative;z-index:2}
+#my_iframe{width:100%!important}
+#warm_box{width:289px;height:153px;background:url(/flash_style/images/bg_warm_box.png) no-repeat;position:fixed;left:50%;margin-left:-145px;top:200px}
+#warm_box_asure{position:absolute;width:53px;height:25px;background:url(#);display:block;top:115px;left:119px;cursor:pointer}
+#txt_warm{position:absolute;text-align:center;font:14px/22px '黑体';color:#6c6668;top:40px;width:90%;left:5%}
+#close_warm{display:inline-block;width:15px;height:15px;background:url(#);top:5px;right:5px;cursor:pointer;position:absolute}
+#warm_box_wrap{position:fixed;width:100%;height:100%;background:url(/flash_style/images/bg_cover2.png);top:0;left:0;z-index:9999}
+.other_reg{position:relative;height:70px;text-align:center}
+.icon_wrap a{display:inline-block;width:38px;height:38px;margin-right:25px}
+.icon_wrap a.a_reg_qq{background:url(/flash_style/images/icon_other_reg.png) no-repeat -47px -47px}
+.icon_wrap a.a_reg_wx{background:url(/flash_style/images/icon_other_reg.png) no-repeat -112px -47px}
+.icon_wrap a.a_reg_wb{background:url(/flash_style/images/icon_other_reg.png) no-repeat -178px -47px}
+a.a_reg_qq:hover{background:url(/flash_style/images/icon_other_reg.png) no-repeat -45px -91px}
+a.a_reg_wx:hover{background:url(/flash_style/images/icon_other_reg.png) no-repeat -111px -91px}
+a.a_reg_wb:hover{background:url(/flash_style/images/icon_other_reg.png) no-repeat -178px -91px}
+.p_reg_tit{font:12px/2 'Microsoft Yahei';color:#000;text-align:center;height:24px;background:url(/flash_style/images/icon_other_reg.png) no-repeat top center;margin:0 0}
+
+
+.other_reg_type{
+    padding:10px 0;
+    text-align: center;
+}
+.other_reg_type a{
+    display: inline-block;
+    padding:10px 20px;
+    font-size:14px;
+    text-decoration: none;
+}
