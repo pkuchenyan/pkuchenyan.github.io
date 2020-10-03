@@ -1,47 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<script //浏览器适用       
- contextClass = window.AudioContext = window.AudioContext || window.webkitAudioContext || window.mozAudioContext || window.msAudioContext;
- try {
-       var context = new contextClass();
-       var source = null;
-       var audioBuffer = null;
-       function stopSound() {
-            if (source) {
-                source.stop(musics); //立即停止
-             }
-      		}
-      function playSound() {
-                source = context.createBufferSource();
-                source.buffer = audioBuffer;
-                source.loop = true;
-                source.connect(context.destination);
-                source.start(0); //立即播放    
-            }
-      function initSound(arrayBuffer) {
-                context.decodeAudioData(arrayBuffer, function (buffer) { //解码成功时的回调函数
-                    audioBuffer = buffer;
-                    playSound();
-                }, function (e) { //解码出错时的回调函数
-                    console.log('404', e);
-                });
-            }
-      function loadAudioFile(url) {
-                var xhr = new XMLHttpRequest(); //通过XHR下载音频文件
-                xhr.open('GET', url, true);
-                xhr.responseType = 'arraybuffer';
-                xhr.onload = function (e) { //下载完成
-                    initSound(this.response);
-                };
-                xhr.send();
-            }
-            //这里用来存储背景音乐的路径
-            loadAudioFile('pkuchenyan.github.io/桥边姑娘.mp3');
- } catch (e) {
-      console.log('无法找到音乐！');
- }
-</script>
- <body> 
-        Let's go 14
+ <script src=“pkuchenyan.github.io/music.js ”> </script>
+<body>      
+    <audio autoplay="" loop=""><source src="https://webfs.yun.kugou.com/202010021343/b3623d5017651f5c1e3733b64733cac1/G182/M08/11/19/VocBAF38m0iAcRCqACWdj1Qncko089.mp3"></audio>
+        Let's go   6
     </body>
+
+
 </html>
