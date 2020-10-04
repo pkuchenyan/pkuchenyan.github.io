@@ -1,16 +1,8 @@
-.bgimg{
-    position:fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    height:100%;
-    min-width: 1000px;
-    z-index:-10;
-    zoom: 1;
-    background-color: #fff;
-    background: url(../img/bg_login.jpg) no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-position: center 0;
-}
+  body {
+        background:url("http://pic.netbian.com/uploads/allimg/200515/234718-15895576386a47.jpg") no-repeat center center;
+		background-size:cover;
+        background-attachment:fixed;
+        /* 设置背景颜色，背景图加载过程中会显示背景色 我试了下可加可不加 */
+        background-color: #CCCCCC;
+	}
+
