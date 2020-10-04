@@ -1,8 +1,6 @@
   body {
-        background:url("http://pic.netbian.com/uploads/allimg/200515/234718-15895576386a47.jpg") no-repeat center center;
+        background:url("pkuchenyan.github.io/WechatIMG60.jpeg") no-repeat center center;
 		background-size:cover;
         background-attachment:fixed;
-        /* 设置背景颜色，背景图加载过程中会显示背景色 我试了下可加可不加 */
-        background-color: #CCCCCC;
 	}
 
